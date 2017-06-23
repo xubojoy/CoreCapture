@@ -171,7 +171,8 @@
 				TargetAttributes = {
 					89B4701C1EF3C35F00FC0401 = {
 						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = 475AM2DC65;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -343,13 +344,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Zhiqian Yang (3U83UAQ5WK)";
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 475AM2DC65;
 				INFOPLIST_FILE = CoreCapture/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ShiDian.Home;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "77a436e4-b9e9-420f-bac8-199557c6defd";
-				PROVISIONING_PROFILE_SPECIFIER = home0413;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -358,13 +360,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Zhiqian Yang (3U83UAQ5WK)";
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 475AM2DC65;
 				INFOPLIST_FILE = CoreCapture/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ShiDian.Home;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "77a436e4-b9e9-420f-bac8-199557c6defd";
-				PROVISIONING_PROFILE_SPECIFIER = home0413;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
